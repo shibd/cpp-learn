@@ -3,8 +3,9 @@ project(simplec)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Test1 CharToStringTest.cpp)
-add_executable(Test2 Test2.cpp)
-add_executable(Test3 Test3.cpp)
+add_executable(Test1 Test1.cpp)
 add_executable(TestLambda TestLambda.cpp)
 add_executable(TestLambda2 TestLambda2.cpp)
+add_executable(TestTableView TestTableView.cpp)
+add_executable(TestObjectMemManager TestObjectMemManager.cpp)
+add_executable(TestReferAndPtr TestReferAndPtr.cpp)
